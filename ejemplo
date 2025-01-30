@@ -1,0 +1,24 @@
+var miNombre= "Tatiana";
+
+console.log(miNombre)
+console.log(window)
+window.alert("hola")
+
+function mostrarMiNombre(){
+    console.log(miNombre)  
+}
+mostrarMiNombre()
+
+function mostrarMiApellido(){
+var miApellido= "Ramos"
+console.log(miApellido)
+}
+mostrarMiApellido()
+
+if(true){
+    const animal ="Perro"
+    console.log(animal)
+    animal = "gato"
+    console.log(animal)
+
+}
